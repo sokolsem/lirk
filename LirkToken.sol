@@ -154,8 +154,8 @@ contract LirkToken is ERC20,LirkTokenStandard,Ownable {
     }
 
     function LirkToken() {
-        maxTotalSupply = 20**25; // 20 Mil.
-        totalInitialSupply = 20**24; // 2 Mil.
+        maxTotalSupply = 10**25; // 10 Mil.
+        totalInitialSupply = 10**24; // 1 Mil.
 
         chainStartTime = now;
         chainStartBlockNumber = block.number;
